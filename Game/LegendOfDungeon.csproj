@@ -1,0 +1,68 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{A713A840-1BF4-403B-B3C4-29EB14ED2D7C}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DirectX</RootNamespace>
+    <AssemblyName>LegendOfDungeon</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Microsoft.DirectX" />
+    <Reference Include="Microsoft.DirectX.Direct3D" />
+    <Reference Include="Microsoft.DirectX.Direct3DX" />
+    <Reference Include="Microsoft.DirectX.DirectInput" />
+    <Reference Include="Microsoft.DirectX.DirectSound" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdvancedFramework\Camera.cs" />
+    <Compile Include="AdvancedFramework\Game.cs" />
+    <Compile Include="AdvancedFramework\GameObject.cs" />
+    <Compile Include="AdvancedFramework\Sprite.cs" />
+    <Compile Include="AdvancedFramework\TextRenderer.cs" />
+    <Compile Include="AdvancedFramework\Timer.cs" />
+    <Compile Include="AdvancedFramework\Transformable.cs" />
+    <Compile Include="Game\Enemies\BadGuy.cs" />
+    <Compile Include="Game\Enemies\Bomb.cs" />
+    <Compile Include="Game\Enemies\Dormin.cs" />
+    <Compile Include="Game\Enemies\Enemy.cs" />
+    <Compile Include="Game\Level.cs" />
+    <Compile Include="Game\Player\Player.cs" />
+    <Compile Include="Game\Player\Powerup.cs" />
+    <Compile Include="Game\Player\Sword.cs">
+    </Compile>
+    <Compile Include="Game\Scenary.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AdvancedFramework" />
+    <Folder Include="Game" />
+    <Folder Include="Game\Enemies" />
+    <Folder Include="Game\Player" />
+  </ItemGroup>
+</Project>
