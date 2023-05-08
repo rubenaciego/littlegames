@@ -1,0 +1,5 @@
+C:\Users\ruben\Documents\SharpDevelop Projects\ParxOca\ParxOca\bin\Debug\ParxOca.exe
+C:\Users\ruben\Documents\SharpDevelop Projects\ParxOca\ParxOca\bin\Debug\ParxOca.pdb
+C:\Users\ruben\Documents\SharpDevelop Projects\ParxOca\ParxOca\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ruben\Documents\SharpDevelop Projects\ParxOca\ParxOca\obj\x86\Debug\ParxOca.exe
+C:\Users\ruben\Documents\SharpDevelop Projects\ParxOca\ParxOca\obj\x86\Debug\ParxOca.pdb

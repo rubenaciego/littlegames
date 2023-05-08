@@ -1,0 +1,5 @@
+C:\Users\ruben\Documents\SharpDevelop Projects\FourInARowXtreme\FourInARowXtreme\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ruben\Documents\SharpDevelop Projects\FourInARowXtreme\FourInARowXtreme\bin\Debug\FourInARowXtreme.exe
+C:\Users\ruben\Documents\SharpDevelop Projects\FourInARowXtreme\FourInARowXtreme\bin\Debug\FourInARowXtreme.pdb
+C:\Users\ruben\Documents\SharpDevelop Projects\FourInARowXtreme\FourInARowXtreme\obj\x86\Debug\FourInARowXtreme.exe
+C:\Users\ruben\Documents\SharpDevelop Projects\FourInARowXtreme\FourInARowXtreme\obj\x86\Debug\FourInARowXtreme.pdb

@@ -1,0 +1,5 @@
+C:\Users\ruben\Documents\SharpDevelop Projects\Battleship\Battleship\bin\Debug\Battleship.exe
+C:\Users\ruben\Documents\SharpDevelop Projects\Battleship\Battleship\bin\Debug\Battleship.pdb
+C:\Users\ruben\Documents\SharpDevelop Projects\Battleship\Battleship\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ruben\Documents\SharpDevelop Projects\Battleship\Battleship\obj\x86\Debug\Battleship.exe
+C:\Users\ruben\Documents\SharpDevelop Projects\Battleship\Battleship\obj\x86\Debug\Battleship.pdb
